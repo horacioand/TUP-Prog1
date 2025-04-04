@@ -17,8 +17,19 @@ que obtendrá es trimestre= 2.33, lo cual es incorrecto.*/
     cout<<"Determinar trimestre correspondiente al mes"<<endl;
     cout<<"Ingrese el numero de mes: "<<endl;
     cin>>mes;
+
     trimestre = (mes+2)/3;
     cout<<"El mes "<<mes<<" corresponde al trimestre "<<trimestre<<endl;
 
+    /*  con if
+    if(mes%3==0)
+    {
+        trimestre = mes / 3;
+    }
+    else
+    {
+        trimestre = mes / 3 + 1;
+    }
+    */
     return 0;
 }
