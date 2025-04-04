@@ -13,7 +13,6 @@ Recordar también que la división directa con el operador / genera un resultado
 con fracción. Por ejemplo si mes=7 y usted calcula trimestre=7/3 el resultado
 que obtendrá es trimestre= 2.33, lo cual es incorrecto.*/
     int mes, trimestre;
-    float trimestreF;
     cout<<"Determinar trimestre correspondiente al mes"<<endl;
     cout<<"Ingrese el numero de mes: "<<endl;
     cin>>mes;
