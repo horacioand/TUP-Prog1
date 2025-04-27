@@ -11,7 +11,7 @@ siguientes condiciones:
 exámenes.
 - “Recursa la materia”, si no aprobó ningún examen parcial.
 */
-    int nota1, nota2, nota3, nota4,con;
+    int nota1, nota2, nota3, nota4,con=0;
     cout<<"Ingrese las notas de los examenes."<<endl;
     cout<<"Nota 1: "<<endl;
     cin>>nota1;
