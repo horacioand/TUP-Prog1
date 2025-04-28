@@ -21,7 +21,7 @@ int main(){
     float importe, saldo=0, porcentajeExtraccion, porcentajeDeposito, mayorDeposito;
     char tipo;
 
-    for(int i=0; i<3; i++){
+    for(int i=0; i<14; i++){
         cout<<"Ingrese los datos del movimiento: "<<endl;
         cout<<"Numero de movimiento: ";
         cin>>numeroMovimiento;

@@ -15,9 +15,13 @@ int main(){
 
     for(int i=1; i<=numero; i++){
         if(numero%i==0){
+            if(i%2==0)
                 cout<<i<<endl;
         }
+
     }
+
+
 
     return 0;
 }
