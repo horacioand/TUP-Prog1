@@ -24,7 +24,7 @@ int main(){
     int numeroPartido, minutosJugados, tarjetaAmarilla, tarjetaRoja, goles, partidoMayorGoles, maximoGol, mejorRacha=0, rachaActual=0;
     int contadorTarjetas=0, partidosNoJugados=0, partidosCompletados=0, contadorGoles=0, contadorPartidos=0;
     float promedioTarjetas;
-    for(int i=0; i<3; i++){
+    for(int i=0; i<19; i++){
         cout<<"Ingrese los datos correspondientes."<<endl;
         numeroPartido=i+1;
         cout<<"Numero de partido: "<<numeroPartido<<endl;
