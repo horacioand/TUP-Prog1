@@ -55,6 +55,8 @@ int main()
         }
     }
 
-    cout << "Total recaudado: $" << importeVentasTotal ;
+    cout << "Total recaudado: $" << importeVentasTotal <<endl;
+
+    system("pause");
     return 0;
 }
